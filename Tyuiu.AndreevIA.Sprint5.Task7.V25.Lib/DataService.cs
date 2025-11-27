@@ -29,7 +29,7 @@ namespace Tyuiu.AndreevIA.Sprint5.Task7.V25.Lib
                         if (!eng.Contains(c))
                         {
                             strLine.Append(c);
-                            strLine = strLine.Replace("  ", " ");
+                            strLine = strLine.Replace("  ", "");
                         }
                     }
 
