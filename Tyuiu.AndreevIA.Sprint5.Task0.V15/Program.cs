@@ -8,7 +8,7 @@ namespace Tyuiu.AndreevIA.Sprint5.Task0.V15
             int x = 3;
 
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнил Андреев И. А. | РППб-25-1";
+            Console.Title = "Спринт #5 | Выполнил Андреев И. А. | РППб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Тема: Класс file. Запись данных в текстовый файл                        *");

@@ -5,7 +5,7 @@ namespace Tyuiu.AndreevIA.Sprint5.Task1.V10
     {
         static void Main(string[] args)
         {
-            Console.Title = "Спринт #1 | Выполнил Андреев И. А. | РППб-25-1";
+            Console.Title = "Спринт #5 | Выполнил Андреев И. А. | РППб-25-1";
 
 
             Console.WriteLine("***************************************************************************");
