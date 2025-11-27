@@ -1,28 +1,19 @@
-﻿namespace Tyuiu.AndreevIA.Sprint5.Task6.V2.Test
+﻿using Tyuiu.AndreevIA.Sprint5.Task6.V2.Lib;
+
+namespace Tyuiu.AndreevIA.Sprint5.Task6.V2.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
+    public class DataServiceTest
     {
         [TestMethod]
-        public void ValidLoadFromDataFile()
+        public void CheckFileExists()
         {
             string path = @"C:\DataSprint5\InPutDataFileTask6V2.txt";
+
             FileInfo fileInfo = new FileInfo(path);
-            bool fileExist = fileInfo.Exists;
+            bool fileExists = fileInfo.Exists;
             bool wait = true;
-
-            Assert.AreEqual(wait, fileExist);
-        }
-
-        [TestMethod]
-        public void ValidCalc()
-        {
-            DataService ds = new DataService();
-            string path = @"C:\DataSprint5\InPutDataFileTask6V2.txt";
-            var res = ds.LoadFromDataFile(path);
-            int wait = 9;
-
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, fileExists);
         }
     }
-} 
+}

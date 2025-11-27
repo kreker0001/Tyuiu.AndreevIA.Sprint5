@@ -9,19 +9,19 @@ namespace Tyuiu.AndreevIA.Sprint5.Task6.V2.Lib
             int count = 0;
             using (StreamReader reader = new StreamReader(path))
             {
-                string line;
+                string? line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    line = line.ToUpper();
                     for (int i = 0; i < line.Length; i++)
                     {
-                        char c = line[i];
-                        if ((c >= 'А') && (c <= 'Я'))
+                        if (line[i] >= 'А' && line[i] <= 'Я' || line[i] >= 'а' && line[i] <= 'я')
+                        {
                             count++;
+                        }
                     }
                 }
             }
             return count;
-        } 
+        }
     }
 }
