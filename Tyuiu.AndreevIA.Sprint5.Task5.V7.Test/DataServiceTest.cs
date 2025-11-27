@@ -10,7 +10,7 @@ namespace Tyuiu.AndreevIA.Sprint5.Task5.V7.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            string path = @"C:\Users\krona\source\repos\Tyuiu.AndreevIA.Sprint5\InPutDataFileTask5V7.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask5V7.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;

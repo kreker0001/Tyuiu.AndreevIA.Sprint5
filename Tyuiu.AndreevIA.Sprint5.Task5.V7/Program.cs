@@ -17,7 +17,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                            *");
 Console.WriteLine("*******************************************************************************");
 
-string path = @"C:\Users\krona\source\repos\Tyuiu.AndreevIA.Sprint5\InPutDataFileTask5V7.txt";
+string path = @"C:\DataSprint5\InPutDataFileTask5V7.txt";
 
 Console.WriteLine("*******************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                                  *");
