@@ -18,8 +18,8 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫНЕ:                                                       *");
 Console.WriteLine("***************************************************************************");
-string path = @"C:\DataSprint5\InPutDataFileTask7V25.txt";
-string pathSaveFile = @"C:\DataSprint5\OutPutDataFileTask7V25.txt";
+string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask7V25.txt";
+string pathSaveFile = $@"{Directory.Get}\OutPutDataFileTask7V25.txt";
 Console.WriteLine("Данные находятся в файле" + path);
 
 Console.WriteLine("***************************************************************************");
