@@ -8,7 +8,7 @@ namespace Tyuiu.AndreevIA.Sprint5.Task7.V25.Lib
         public string LoadDataAndSave(string path)
         {
             char[] eng = new char[] { 'H', 'e', 'l', 'o', 'I', 's', 'M', 'y', 'F', 'i', 'r', 't', 'P', 'r', 'o', 'g', 'a', 'm' };
-            string pathSaveFile = $@"{Path.GetTempPath()}\OutPutDataFileTask7V25.txt";
+            string pathSaveFile = Path.Combine(new string[] { Path.GetTempPath(), "InPutDataFileTask7V25.txt" });
 
 
             if (File.Exists(pathSaveFile))
