@@ -8,7 +8,7 @@ namespace Tyuiu.AndreevIA.Sprint5.Task7.V25.Lib
         public string LoadDataAndSave(string path)
         {
             char[] eng = new char[] { 'H', 'e', 'l', 'o', 'I', 's', 'M', 'y', 'F', 'i', 'r', 't', 'P', 'r', 'o', 'g', 'a', 'm' };
-            string pathSaveFile = Path.Combine(Path.GetTempPath(), "OutPutDataFileTask7V25.txt");
+            string pathSaveFile = @"C:\DataSprint5\OutPutDataFileTask7V25.txt");
 
 
             if (File.Exists(pathSaveFile))
@@ -29,9 +29,11 @@ namespace Tyuiu.AndreevIA.Sprint5.Task7.V25.Lib
                         if (!eng.Contains(c))
                         {
                             strLine.Append(c);
+                            strLine = strLine.Replace("  ", " ");
                         }
                     }
 
+                    
 
                     File.AppendAllText(pathSaveFile, strLine.ToString() + Environment.NewLine);
                 }

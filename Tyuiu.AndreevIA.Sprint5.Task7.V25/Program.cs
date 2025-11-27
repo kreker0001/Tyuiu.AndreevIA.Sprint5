@@ -18,8 +18,8 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫНЕ:                                                       *");
 Console.WriteLine("***************************************************************************");
-string path = Path.Combine(new string[] { Path.GetTempPath(), "InPutDataFileTask7V25.txt" });
-string pathSaveFile = Path.Combine(new string[] { Path.GetTempPath(), "OutPutDataFileTask7V25.txt" });
+string path = @"C:\DataSprint5\InPutDataFileTask7V25.txt";
+string pathSaveFile = @"C:\DataSprint5\OutPutDataFileTask7V25.txt";
 Console.WriteLine("Данные находятся в файле" + path);
 
 Console.WriteLine("***************************************************************************");
