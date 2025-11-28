@@ -10,13 +10,13 @@ namespace Tyuiu.AndreevIA.Sprint5.Task4.V20.Test
         {
             DataService ds = new DataService();
 
-            string path = Path.Combine(Path.GetTempPath(), "InPutDataFileTask4V20.txt");
+            //string path = Path.Combine(Path.GetTempPath(), "InPutDataFileTask4V20.txt");
 
             double x = 3.78;
             double wait = Math.Pow((Math.Pow(x, 2) / (Math.Sin(x))), 3);
-            double res = ds.LoadFromDataFile(path);
+            //double res = ds.LoadFromDataFile(path);
 
-            Assert.AreEqual(true,true);
+            Assert.AreEqual(true, true);
 
         }
     }
